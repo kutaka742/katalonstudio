@@ -1,16 +1,16 @@
 # katalonstudio
-Katalon Studio�̃e�X�g���s�̃T���v���v���W�F�N�g�B
+Katalon Studioのテスト実行のサンプルプロジェクト。
 
-## �\��
+## 構成
 ```
-���� project - �c           Katalon Studio�̃e�X�g�P�[�X
-���� Jenkinsfile            Jenkins�p�C�v���C��
+├─ project - …           Katalon Studioのテストケース
+└─ Jenkinsfile           Jenkinsパイプライン
 ```
-## �O��
- - `Katalon Studio`��`C:\KatalonStudio`�ɃC���X�g�[������Ă���(`C:\KatalonStudio\katalon.exe`)
- - �C���^�[�l�b�g�ڑ��\�Ȓ[���ł��邱��(�e�X�g��Google�Ō������鏈��)
+## 前提
+ - `Katalon Studio`が`C:\KatalonStudio`にインストールされている(`C:\KatalonStudio\katalon.exe`)
+ - インターネット接続可能な端末であること(テストはGoogleで検索する処理)
 
-## Jenkins�p�C�v���C���T�v
- - �uMultibranch Pipeline�v�W���u��z�肵���p�C�v���C��
- -  �e�X�g���ʂ̃��|�[�g�𐬉ʕ��Ƃ��ĕۑ�
+## Jenkinsパイプライン概要
+ - 「パイプライン」ジョブを想定したパイプライン
+ -  テスト結果のレポートを成果物として保存
 
